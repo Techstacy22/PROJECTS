@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
 // import { AuthProvider } from './contexts/AuthContext.jsx';
-import { Navbar } from './components/Navbar.jsx';
+// the landing pages for SavedRecipesPage,datatypespage,loginpage,getstartedpage and the navigation bar 
+import { Navbar } from './components/Navbar.jsx'; 
 import { HomePage } from './components/HomePage.jsx';
 import { SavedRecipesPage } from './components/SavedRecipesPage.jsx';
 import { DietTypesPage } from './components/DietTypesPage.jsx';
@@ -42,7 +43,13 @@ function App() {
     </div>
   );
 }
-export default App;
+export default App() {
+  // return (
+  //   <AuthProvider>
+  //     <AppContent />
+  //   </AuthProvider>
+  // );
+}
 
 
 
