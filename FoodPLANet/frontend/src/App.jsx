@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-// import { AuthProvider } from './contexts/AuthContext.jsx';
+
 // the landing pages for SavedRecipesPage,datatypespage,loginpage,getstartedpage and the navigation bar 
 import { Navbar } from './components/Navbar.jsx'; 
 import { HomePage } from './components/HomePage.jsx';
@@ -43,13 +43,7 @@ function App() {
     </div>
   );
 }
-export default App() {
-  // return (
-  //   <AuthProvider>
-  //     <AppContent />
-  //   </AuthProvider>
-  // );
-}
+export default App;
 
 
 
